@@ -31,10 +31,7 @@
 				<br>
 				<label for="fecha">Fecha</label> 
 				<input type="date" id="fecha" name="fecha">			
-				
-				<label for="activo">Activo</label>	
-				<input type="checkbox" name="activo" id="activo" value="1" readonly="readonly" checked onclick="javascript: return false;">
-				
+
 				<input type="submit" value="Enviar">
 			</form>
 

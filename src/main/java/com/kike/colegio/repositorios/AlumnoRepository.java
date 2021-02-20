@@ -10,7 +10,8 @@ import org.springframework.stereotype.Repository;
 import com.kike.colegio.dtos.AlumnoDTO;
 import com.kike.colegio.entities.AlumnoEntity;
 
-@Repository
+
+
 public interface AlumnoRepository extends CrudRepository<AlumnoEntity, Integer>{
 	
 	@Query(value = "select new com.kike.colegio.dtos.AlumnoDTO (a.id, a.nombre, m.nombre, m.idMunicipio, a.famNumerosa) "
